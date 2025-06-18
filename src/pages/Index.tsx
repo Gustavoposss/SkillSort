@@ -5,6 +5,7 @@ import { Users, Plus, Shuffle, Trophy } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { usePlayers } from '@/hooks/usePlayers';
 
+
 const Index = () => {
   const navigate = useNavigate();
   const { players, loading } = usePlayers();
@@ -15,8 +16,7 @@ const Index = () => {
       <div className="bg-gradient-to-r from-green-500 to-blue-500 text-white py-8 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Trophy className="w-10 h-10" />
-            <h1 className="text-4xl font-bold">Time Equilibrado</h1>
+            <h1 className="text-4xl font-bold">Skillsort</h1>
           </div>
           <p className="text-xl opacity-90">
             Sorteie times equilibrados para seus jogos de futebol!
