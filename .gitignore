@@ -7,10 +7,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies
+node_modules/
+bun.lockb
+package-lock.json
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Env files
+.env
+.env.*.local
 
 # Editor directories and files
 .vscode/*
